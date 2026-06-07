@@ -74,7 +74,6 @@ void AircraftManager::Draw(LGFX_Sprite& backbuffer)
     const int OUTER = SCREEN_SIZE_DIV_2 - 1;
     backbuffer.drawCircle(CENTRE, CENTRE, OUTER, lgfx::color888(0, 200, 0));  // outer ring, 1px inside edge
     backbuffer.drawCircle(CENTRE, CENTRE, OUTER / 2, lgfx::color888(0, 64, 0));   // mid ring
-    backbuffer.fillCircle(CENTRE, CENTRE, 2, lgfx::color888(0, 64, 0));   // centre dot
 
     for (auto& [icao, tracked] : trackedAircraft) {
         if (tracked.state.onGround) continue;
