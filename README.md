@@ -24,9 +24,16 @@ Here is everything you'll need to purchase before starting the build.
 I've linked some of the specific products that I bought, which would be best-case scenario for ease of bulding. However please be prepared to make modifications to the enclosure and/or code if deviating from the hardware I've used :)
 
 - [ESP32-C3 Round Display Module (no-touch)](https://www.aliexpress.com/item/1005008482665220.html)
-- [32.5mm Round Mineral Glass Lens (optional)](https://www.aliexpress.com/item/1005004783554496.html)
 - [USB-C Ribbon Extension Cable (5cm, CMUP-CFPCB-BK)](https://www.aliexpress.com/item/1005005371248824.html)
 - [M2 Heat-set Threaded Inserts (+ soldering iron)](https://www.aliexpress.com/item/1005008493831823.html)
+- [32.5mm Round Mineral Glass Lens (optional)](https://www.aliexpress.com/item/1005004783554496.html)
+
+### Accounts / API
+This project uses OpenSky's API for retrieving flight data.
+
+I highly recommend making an account, as it's free, and allows the radar to make many more requests per day (400 -> 4000), which makes the live view much more accurate. However, it's not at all necessary if you prefer.
+
+You can sign up [here](https://opensky-network.org), or search "OpenSky".
 
 ## Assembly
 TODO - this section
