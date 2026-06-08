@@ -44,7 +44,7 @@ void setup()
   tft.setTextColor(lgfx::color888(0, 255, 0));
   tft.drawCentreString("Connecting to WiFi...", SCREEN_SIZE / 2, SCREEN_SIZE / 2);
 
-  WiFiManagerHelpers::ConfigureWiFiManager(wm);
+  WiFiManagerHelpers::ConfigureWiFiManager(wm, tft);
   wm.autoConnect(WiFiManagerHelpers::WiFiManagerName);
 
   // begin background server for configuration
