@@ -23,10 +23,10 @@ Here is everything you'll need to purchase before starting the build.
 
 I've linked some of the specific products that I bought, I recommend these for ease of bulding. Please be prepared to make modifications to the enclosure and/or code if deviating from the hardware I've used. A lot of these can be found elsewhere, too.
 
-- [1.28" Round GC9A01 240×240 IPS Display Module with ESP32-C3 (no-touch)](https://www.aliexpress.com/item/1005008482665220.html)
-- [USB-C Ribbon Extension Cable (5cm, CMUP-CFPCB-BK)](https://www.aliexpress.com/item/1005005371248824.html)
-- [M2 Heat-set Threaded Inserts (+ soldering iron)](https://www.aliexpress.com/item/1005008493831823.html)
-- [32.5mm Round Mineral Glass Lens (optional, recommended)](https://www.aliexpress.com/item/1005004783554496.html)
+- [ ] [1.28" Round GC9A01 240×240 IPS Display Module with ESP32-C3 (no-touch)](https://www.aliexpress.com/item/1005008482665220.html)
+- [ ] [USB-C Ribbon Extension Cable (5cm, CMUP-CFPCB-BK)](https://www.aliexpress.com/item/1005005371248824.html)
+- [ ] [M2 Heat-set Threaded Inserts (+ soldering iron)](https://www.aliexpress.com/item/1005008493831823.html)
+- [ ] [32.5mm Round Mineral Glass Lens (optional, recommended)](https://www.aliexpress.com/item/1005004783554496.html)
 
 ### Accounts / API
 This project uses OpenSky's API for retrieving flight data.
