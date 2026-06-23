@@ -29,12 +29,12 @@ A tiny, premium, open-source flight radar for your desk. This version has been c
 ---
 ## 🚀 Getting Started
 
-If you want to modify or flash the source code:
+You can flash the firmware directly from your web browser without installing any tools or IDEs:
 
-1. Install [VS Code](https://code.visualstudio.com/) and the [PlatformIO IDE extension](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide).
-2. Open this folder in VS Code. PlatformIO will automatically fetch all toolchains and library dependencies.
-3. Plug in your ESP32 CYD board.
-4. Click the **Upload** button (→ arrow) in the bottom status bar.
+1. Open **[https://flash.ihni.uk](https://flash.ihni.uk)** in Google Chrome or Microsoft Edge.
+2. Connect your ESP32 CYD module to your computer via a USB-C data cable.
+3. Click **Connect**, select your board's COM port, and click **Install**.
+4. Once completed, press the physical **RESET** button on the back of the device to start.
 
 ---
 
